@@ -15,7 +15,7 @@ class Store<S,A> implements IRStateStore<S,A> {
             cancelAnimationFrame(this._activeDispatcher);
         }
 
-        requestAnimationFrame(()=> {
+        this._activeDispatcher = requestAnimationFrame(()=> {
             this._state = this._reducer(this._state, action);
 
             this._listeners.forEach((listener)=> {
