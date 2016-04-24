@@ -1,0 +1,11 @@
+node_modules
+
+tmp
+
+tscommand-*.tmp.txt
+.idea
+.tscache
+.baseDir.ts
+npm-debug.log
+.vscode
+.DS_Store

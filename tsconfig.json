@@ -1,0 +1,19 @@
+{
+  "version": "1.8.0",
+  "command": "tsc",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "suppressImplicitAnyIndexErrors": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "outDir": "dist"
+  },
+  "files": [
+    "src/rstate.ts"
+  ]
+}
