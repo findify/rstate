@@ -1,5 +1,4 @@
 {
-  "version": "1.8.0",
   "command": "tsc",
   "compileOnSave": false,
   "compilerOptions": {
@@ -14,6 +13,10 @@
     "outDir": "dist"
   },
   "files": [
-    "src/rstate.ts"
+    "src/rstate.ts",
+    "src/createStore.ts",
+    "src/Store.ts",
+    "src/interfaces/IRState.ts",
+    "src/interfaces/IRStateStore.ts"
   ]
 }
