@@ -1,0 +1,24 @@
+{
+  "name": "@findify/rstate",
+  "version": "1.0.0",
+  "description": "A simple store->dispatch/subscribe module, compatible with the core Redux interface (createStore, dispatch, subscribe, getState)",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/findify/rstate.git"
+  },
+  "keywords": [
+    "state",
+    "reducer",
+    "redux"
+  ],
+  "author": "wojciak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/findify/rstate/issues"
+  },
+  "homepage": "https://github.com/findify/rstate#readme"
+}
