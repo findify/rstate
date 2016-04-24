@@ -10,7 +10,8 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": false,
-    "outDir": "dist"
+    "outDir": "dist",
+    "declaration": true
   },
   "files": [
     "src/rstate.ts",

@@ -5,7 +5,7 @@ function clean() {
 
     return {
         clean: {
-            dist: ['dist']
+            dist: ['dist', 'typings']
         }
     }
 }

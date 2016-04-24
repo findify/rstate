@@ -1,0 +1,12 @@
+{
+  "name": "@findify/rstate",
+  "version": true,
+  "dependencies": {},
+  "files": [
+    "dist/interfaces/IRStateStore.d.ts",
+    "dist/interfaces/IRState.d.ts",
+    "dist/Store.d.ts",
+    "dist/createStore.d.ts",
+    "dist/rstate.d.ts"
+  ]
+}
