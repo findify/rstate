@@ -11,13 +11,13 @@ class Store<S,A> implements IRStateStore<S,A> {
     }
 
     dispatch(action:A) {
+        this._state = this._reducer(this._state, action);
+
         if (this._activeDispatcher) {
             cancelAnimationFrame(this._activeDispatcher);
         }
 
         this._activeDispatcher = requestAnimationFrame(()=> {
-            this._state = this._reducer(this._state, action);
-
             this._listeners.forEach((listener)=> {
                 listener();
             });
