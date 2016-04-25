@@ -1,7 +1,7 @@
 {
   "name": "@findify/rstate",
   "version": "1.3.1",
-  "description": "A simple store->dispatch/subscribe module, compatible with the core Redux interface (createStore, dispatch, subscribe, getState)",
+  "description": "A simple store/dispatch/subscribe module, compatible with the core Redux interface (createStore, dispatch, subscribe, getState)",
   "main": "dist/rstate.js",
   "scripts": {
     "test": "grunt test"
